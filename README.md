@@ -68,7 +68,7 @@ The denoising autoencoder architecture follows the design introduced in Guo et a
 - Peak filtering
 - Rebinning (multiple methods)
 
-This pipeline enabled a systematic comparison of preprocessing choices across all clustering methods, producing a comprehensive study of how preprocessing decisions affect clustering outcomes on noisy clinical MALDI data.
+**Comparative evaluation** — this pipeline enabled a systematic comparison of preprocessing choices across all clustering methods, producing a comprehensive study of how preprocessing decisions affect clustering outcomes on noisy clinical MALDI data.
 
 ---
 
