@@ -61,12 +61,12 @@ The denoising autoencoder architecture follows the design introduced in Guo et a
 
 **Custom Python preprocessing pipeline** — a full reimplementation of Cardinal-style MALDI preprocessing in Python, covering:
 
-- Smoothing (multiple methods, including Savitzky-Golay ([Savitzky & Golay, 1964](https://doi.org/10.1021/ac60214a047)) and Gaussian)
-- Baseline correction (multiple methods, including SNIP ([Ryan et al., 1988](https://doi.org/10.1016/0168-583X(88)90063-8)) and Tophat)
+- Smoothing (multiple methods)
+- Baseline correction (multiple methods)
 - TIC normalisation
-- Peak picking with multiple noise estimation strategies (MAD, Adaptive, Constant)
+- Peak picking with multiple noise estimation strategies (multiple methods)
 - Peak filtering
-- Rebinning (sum and maximum intensity strategies)
+- Rebinning (multiple methods)
 
 This pipeline enabled a systematic comparison of preprocessing choices across all clustering methods, producing a comprehensive study of how preprocessing decisions affect clustering outcomes on noisy clinical MALDI data.
 
