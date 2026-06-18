@@ -13,6 +13,8 @@ This work was carried out during an internship at **Datrix S.p.A., Milan**, in c
 
 The project applies unsupervised deep learning to Mass Spectrometry Imaging (MALDI-MSI) data, with the goal of clustering ion images to reveal molecular co-localisation patterns relevant to cancer diagnostics and biomarker discovery.
 
+This repository documents the research methodology and experimental design; code and datasets are not publicly available due to a confidentiality agreement with Datrix S.p.A. and the proprietary nature of the clinical data.
+
 ---
 
 ## Datasets
