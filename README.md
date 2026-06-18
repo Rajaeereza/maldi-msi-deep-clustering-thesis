@@ -97,13 +97,13 @@ conditions, demonstrating the strength of Xception-based feature extraction
 when combined with effective denoising.
 
 The preprocessing comparison on the human lung dataset revealed that each 
-method — smoothing, baseline correction, normalisation, and peak picking — 
+method (smoothing, baseline correction, normalisation, and peak picking) 
 produces meaningfully different clustering outcomes. These variations affect 
 the reliability and interpretability of results, making preprocessing choice 
 a critical and often underestimated factor in MALDI-MSI analysis workflows.
 
 Across both datasets, the denoising step was consistently the decisive 
-factor in clustering quality — more so than the choice of clustering 
+factor in clustering quality; more so than the choice of clustering 
 architecture itself. This points toward denoising as a transferable and 
 high-value component for future MALDI-MSI analysis pipelines.
 
@@ -125,14 +125,14 @@ high-value component for future MALDI-MSI analysis pipelines.
 
 ## References
 
-- Guo D, Föll MC, Bemis KA, Vitek O. *A noise-robust deep clustering of biomolecular ions improves interpretability of mass spectrometric images.* Journal of Computational Biology, 2024. — **Primary deep clustering baseline**
-- Chollet F. *Xception: Deep learning with depthwise separable convolutions.* CVPR, 2017. — **Feature extraction architecture**
-- Bemis KD, Harry A, Eberlin LS, Ferreira C, van de Ven SM, Mallick P, Stolowitz M, Vitek O. *Cardinal: an R package for statistical analysis of mass spectrometry-based imaging experiments.* Bioinformatics, 31(14), 2418–2420, 2015. — **Preprocessing package**
-- Alexandrov T, Becker M, Deininger S, Ernst G, Wehder L, Grasmair M, von Eggeling F, Thiele H, Maass P. *Spatial segmentation of imaging mass spectrometry data with edge-preserving image denoising and clustering.* Journal of Proteome Research, 9, 6535–6546, 2010. — **K-Means on MALDI-MSI**
-- Abdelmoula WM, Lopez BG-C, Randall EC, Kapur T, Sarkaria JN, White FM, Agar JN, Wells WM, Agar NYR. *Peak learning of mass spectrometry imaging data using artificial neural networks.* Nature Communications, 12, 2021. — **GMM on MALDI-MSI**
-- Römpp A, Guenther S, Schober Y, Schulz O, Takats Z, Kummer W, Spengler B. *Histology by mass spectrometry: label-free tissue characterization obtained from high-accuracy bioanalytical imaging.* Angewandte Chemie International Edition, 49, 3834–3838, 2010. — **Mouse urinary bladder dataset**
-- Savitzky A, Golay MJE. *Smoothing and differentiation of data by simplified least squares procedures.* Analytical Chemistry, 36(8), 1627–1639, 1964. — **Smoothing**
-- Ryan CG, Clayton E, Griffin WL, Sie SH, Cousens DR. *SNIP, a statistics-sensitive background treatment for the quantitative analysis of PIXE spectra in geoscience applications.* Nuclear Instruments and Methods B, 34(3), 396–402, 1988. — **Baseline correction**
+- Guo D, Föll MC, Bemis KA, Vitek O. *A noise-robust deep clustering of biomolecular ions improves interpretability of mass spectrometric images.* Journal of Computational Biology, 2024. (**Primary deep clustering baseline**)
+- Chollet F. *Xception: Deep learning with depthwise separable convolutions.* CVPR, 2017. (**Feature extraction architecture**)
+- Bemis KD, Harry A, Eberlin LS, Ferreira C, van de Ven SM, Mallick P, Stolowitz M, Vitek O. *Cardinal: an R package for statistical analysis of mass spectrometry-based imaging experiments.* Bioinformatics, 31(14), 2418–2420, 2015. (**Preprocessing package**)
+- Alexandrov T, Becker M, Deininger S, Ernst G, Wehder L, Grasmair M, von Eggeling F, Thiele H, Maass P. *Spatial segmentation of imaging mass spectrometry data with edge-preserving image denoising and clustering.* Journal of Proteome Research, 9, 6535–6546, 2010. (**K-Means on MALDI-MSI**)
+- Abdelmoula WM, Lopez BG-C, Randall EC, Kapur T, Sarkaria JN, White FM, Agar JN, Wells WM, Agar NYR. *Peak learning of mass spectrometry imaging data using artificial neural networks.* Nature Communications, 12, 2021. (**GMM on MALDI-MSI**)
+- Römpp A, Guenther S, Schober Y, Schulz O, Takats Z, Kummer W, Spengler B. *Histology by mass spectrometry: label-free tissue characterization obtained from high-accuracy bioanalytical imaging.* Angewandte Chemie International Edition, 49, 3834–3838, 2010. (**Mouse urinary bladder dataset)
+- Savitzky A, Golay MJE. *Smoothing and differentiation of data by simplified least squares procedures.* Analytical Chemistry, 36(8), 1627–1639, 1964. (**Smoothing**)
+- Ryan CG, Clayton E, Griffin WL, Sie SH, Cousens DR. *SNIP, a statistics-sensitive background treatment for the quantitative analysis of PIXE spectra in geoscience applications.* Nuclear Instruments and Methods B, 34(3), 396–402, 1988. (**Baseline correction**)
 - Zhang W, Claesen M, Moerman T, Groseclose MR, Waelkens E, De Moor B, Verbeeck N. *Spatially aware clustering of ion images in mass spectrometry imaging data using deep learning.* Analytical and Bioanalytical Chemistry, 413, 2803, 2021.
 
 ---
