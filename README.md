@@ -74,7 +74,7 @@ The denoising autoencoder architecture follows the design introduced in Guo et a
 
 ## Pipeline overview
 
-![Research pipeline](pipeline.png)
+![Research pipeline](maldi_thesis_pipeline_final.png)
 
 ---
 
