@@ -72,6 +72,12 @@ The denoising autoencoder architecture follows the design introduced in Guo et a
 
 ---
 
+## Pipeline overview
+
+![Research pipeline](pipeline.png)
+
+---
+
 ## Key questions addressed
 
 - Does adding a denoising step improve clustering performance for methods beyond the original noise-robust network?
