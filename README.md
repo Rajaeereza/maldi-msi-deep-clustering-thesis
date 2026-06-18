@@ -81,6 +81,28 @@ This pipeline enabled a systematic comparison of preprocessing choices across al
 
 ---
 
+## Findings
+
+The denoise-Xception method achieved clustering performance comparable to 
+the state-of-the-art noise-robust deep clustering network. On the mouse 
+urinary bladder dataset it matched the baseline method's performance; on 
+the human lung tissue dataset it surpassed it in several preprocessing 
+conditions, demonstrating the strength of Xception-based feature extraction 
+when combined with effective denoising.
+
+The preprocessing comparison on the human lung dataset revealed that each 
+method — smoothing, baseline correction, normalisation, and peak picking — 
+produces meaningfully different clustering outcomes. These variations affect 
+the reliability and interpretability of results, making preprocessing choice 
+a critical and often underestimated factor in MALDI-MSI analysis workflows.
+
+Across both datasets, the denoising step was consistently the decisive 
+factor in clustering quality — more so than the choice of clustering 
+architecture itself. This points toward denoising as a transferable and 
+high-value component for future MALDI-MSI analysis pipelines.
+
+---
+
 ## Technical skills
 
 | Area | Details |
