@@ -141,7 +141,9 @@ high-value component for future MALDI-MSI analysis pipelines.
 
 ## Repository note
 
-This repository documents the research methodology and experimental design of the thesis. The original implementation was developed during an internship at Datrix S.p.A., Milan. Code and datasets are not included here; the human lung dataset is proprietary clinical data from INT Milan.
+This repository documents the research methodology and experimental design of the thesis. The original implementation was developed during 
+an internship at Datrix S.p.A., Milan. Code is not publicly available due to a confidentiality agreement with Datrix S.p.A.; the human lung 
+dataset is proprietary clinical data from INT Milan and is not publicly available.
 
 ---
 
